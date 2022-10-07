@@ -53,7 +53,6 @@ export class AppComponent {
   }
 
   getWeek() {
-    var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
     var now = new Date();
     var week = [];
     for (var i = now.getDay(); i < now.getDay() + 7; i++) {
