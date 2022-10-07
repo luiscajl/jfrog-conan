@@ -1,10 +1,13 @@
-name: GitHub Pages
+name: Deploy to S3
 
 on:
   push:
     paths:
       - frontend/**
-
+defaults:
+  run:
+    shell: bash
+    working-directory: frontend
 jobs:
   deploy:
     runs-on: ubuntu-latest
