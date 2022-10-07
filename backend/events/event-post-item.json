@@ -1,4 +1,7 @@
 {
-    "httpMethod": "POST",
-    "body": "{\"id\": \"id1\",\"name\": \"name1\"}"
+    "day": 13,
+    "month": 10,
+    "year": 2022,
+    "minimumTemperature": 12,
+    "maximumTemperature": 29
 }
